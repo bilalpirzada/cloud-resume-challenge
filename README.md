@@ -39,6 +39,7 @@ Through this stage of the project, I learned:
 * Why S3 buckets are private by default.
 * The difference between Block Public Access and Bucket Policies.
 * Basic Git and GitHub workflow for version control.
+* Configure GitHub Actions with OIDC deployment
 
 ## Upcoming Steps
 
@@ -53,4 +54,3 @@ Through this stage of the project, I learned:
 
 The goal of this project is not just to complete the Cloud Resume Challenge, but to build a strong understanding of AWS, DevOps practices, Infrastructure as Code, and CI/CD by implementing each component step by step.
 
-Thanks
