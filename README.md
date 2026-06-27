@@ -52,3 +52,5 @@ Through this stage of the project, I learned:
 ## Goal
 
 The goal of this project is not just to complete the Cloud Resume Challenge, but to build a strong understanding of AWS, DevOps practices, Infrastructure as Code, and CI/CD by implementing each component step by step.
+
+Thanks
