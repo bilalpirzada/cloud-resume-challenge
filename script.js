@@ -133,3 +133,24 @@ document.addEventListener('DOMContentLoaded', () => {
   initScrollSpy();
   updateVisitorCount();
 });
+
+async function loadVisitorCount() {
+  try {
+    const response = await fetch(
+      "https://inhh7q02r0.execute-api.ap-south-1.amazonaws.com/visitors"
+    );
+
+    if (!response.ok) {
+      throw new Error("Failed to fetch visitor count");
+    }
+
+    const data = await response.json();
+
+    document.getElementById("visitor-count").textContent = data.visitors;
+  } catch (error) {
+    console.error(error);
+    document.getElementById("visitor-count").textContent = "Error";
+  }
+}
+
+loadVisitorCount();
